@@ -1,32 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <title>Overlay</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="desktop">
-      <div class="div">
-        <div class="overlap"><img class="image" src="img/image-10.png" /></div>
-        <div class="overlap-group">
-          <div class="rectangle"></div>
-          <div class="text-wrapper">ผลงาน</div>
+    <main class="container">
+      <section class="overlay-section" style="display:flex; flex-direction:column; gap:24px; align-items:center;">
+        <img src="img/image-10.png" alt="Overlay Decor" style="max-width:140px; border-radius:8px;" />
+        <div class="overlay-card" style="width:100%; background:#f2f2f2; border-radius:8px; padding:16px; text-align:center;">
+          <h2>ผลงาน</h2>
         </div>
-        <div class="overlap-2">
-          <img class="img" src="img/rectangle-6.svg" />
-          <div class="text-wrapper-2">ประวัติการศึกษา</div>
+        <div class="overlay-card" style="width:100%; background:#f2f2f2; border-radius:8px; padding:16px; text-align:center;">
+          <img src="img/rectangle-6.svg" alt="Overlay Rectangle" style="max-width:120px; margin-bottom:8px;" />
+          <p>ประวัติการศึกษา</p>
         </div>
-        <div class="overlap-3">
-          <div class="rectangle-2"></div>
-          <div class="text-wrapper-3">ช่องทางการติดต่อ</div>
+        <div class="overlay-card" style="width:100%; background:#f2f2f2; border-radius:8px; padding:16px; text-align:center;">
+          <p>ช่องทางการติดต่อ</p>
         </div>
-        <div class="overlap-4">
-          <div class="rectangle-3"></div>
-          <div class="text-wrapper-4">เกียรติบัตร</div>
+        <div class="overlay-card" style="width:100%; background:#f2f2f2; border-radius:8px; padding:16px; text-align:center;">
+          <p>เกียรติบัตร</p>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   </body>
 </html>

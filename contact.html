@@ -6,27 +6,81 @@
     <title>Contact</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Modernize spacing and layout */
+      body {
+        background: #f7f7f9;
+        font-family: 'Segoe UI', 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 420px;
+        margin: 36px auto;
+        background: #fff;
+        box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+        border-radius: 14px;
+        padding: 34px 26px 28px 26px;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        min-height: 64px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 8px;
+      }
+      .logo {
+        height: 38px;
+        margin-right: 10px;
+      }
+      .contact-section h1 {
+        font-size: 2rem;
+        margin-bottom: 18px;
+        color: #333;
+        letter-spacing: 1px;
+      }
+      .contact-section ul {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 20px;
+      }
+      .contact-section li {
+        font-size: 1.08rem;
+        margin-bottom: 10px;
+        color: #444;
+        padding: 6px 0;
+        border-bottom: 1px solid #f2f2f2;
+      }
+      .contact-section li:last-child {
+        border-bottom: none;
+      }
+      .map-img {
+        width: 100%;
+        max-width: 350px;
+        display: block;
+        margin: 18px auto 0 auto;
+        border-radius: 11px;
+        box-shadow: 0 1px 8px rgba(0,0,0,0.09);
+      }
+    </style>
   </head>
   <body>
-        <main class="container">
-      <header class="header">
-        <header class="header">
-          <a href="overlay.html">
-            <img class="logo" src="img/icon burger.png" alt="Hamburger Logo" />
-          </a>
-      </header>
-      </header>
     <main class="container">
       <header class="header">
+        <a href="overlay.html">
+          <img class="logo" src="img/icon burger.png" alt="Hamburger Logo" />
+        </a>
       </header>
       <section class="contact-section">
         <h1>ข้อมูลติดต่อ</h1>
-        <ul style="list-style:none; padding-left:0;">
+        <ul>
           <li>ID Line : gunner2374</li>
           <li>IG : gunn_plus</li>
           <li>เบอร์ : 0995041155</li>
           <li>Email : 34947.skn@skn.ac.th</li>
         </ul>
+        <img src="img/map.png" alt="Location Map" class="map-img" />
       </section>
     </main>
   </body>
